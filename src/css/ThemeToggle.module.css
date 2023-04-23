@@ -1,0 +1,12 @@
+.changeTheme {
+  background-color: transparent;
+  color: var(--color1);
+  cursor: pointer;
+}
+
+.changeTheme:hover{
+  background-color:var(--color1);
+  color: var(--color5);
+  border-radius: 40%;
+  transition: 0.2s;
+}

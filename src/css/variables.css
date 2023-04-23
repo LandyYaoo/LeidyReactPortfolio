@@ -1,0 +1,41 @@
+:root {
+  --color1: #4c3a55;
+  --color2: #684b61;
+  --color3: #9e637a;
+  --color4: #dc8f98;
+  --color5: #e2bba7;
+  --light-pink: #e2bba7bc;
+  --text-color: #f5f5fa;
+  --black:  #17171F;
+  --subtitle: #cdcdd0;
+  --fondo-pink: #dc8f988a;
+  --background-img: url(/assets/fondo2.svg);
+  --img-dark: url(/assets/foto2.svg)
+}
+/*[data-theme= "light"]{
+  --color1: #4aafa0c9;
+  --color2: #6fbdb29d;
+  --color3: green;
+  --color4:#9EDFD5;
+  --color5: #C4ECE6;
+  --light-pink: #c4ece6a5;
+  --text-color: black;
+  --black: white;
+  --fondo-pink: #79d2c5aa;
+  --background-img: url(../../public/assets/fondolight.svg);
+  --img-dark: url(../assets/foto1.svg)
+}*/
+[data-theme= "light"]{
+  --color1: #EEF1FF;
+  --color2: #D2DAFF;
+  --color3: #AAC4FF;
+  --color4: #B1B2FF;
+  --color5: #9899f7;
+  --light-pink: #b1b2ffa2;
+  --text-color: #1F1F29;
+  --subtitle: rgb(92, 93, 94);
+  --black: #F0F0F5;
+  --fondo-pink: #aac4ffaf;
+  --background-img: url(/assets/fondolight.svg);
+  --img-dark: url(/assets/foto1.svg)
+}
