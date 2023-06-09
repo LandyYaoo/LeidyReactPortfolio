@@ -45,6 +45,10 @@
   background-color: var(--light-pink);
   height: 5vh;
   border-radius: 20px 20px 0 0;
+  font-size: 1rem;
+  color: black;
+  padding: 1rem;
+  font-family: "Golos Text", sans-serif;
   margin-top: 2vh;
   width: 70%;
 }
@@ -53,26 +57,41 @@
   background-color: var(--light-pink);
   height: 5vh;
   width: 70%;
+  font-size: 1rem;
+  color: black;
+  padding: 1rem;
+  font-family: "Golos Text", sans-serif;
 }
 
 .description {
   background-color: var(--light-pink);
   border-radius: 0 0 20px 20px;
   width: 70%;
+  min-width: 70%;
+  max-width: 70%;
+  height: 40%;
+  min-height: 40%;
+  max-height: 50%;
+  font-size: 1rem;
+  color: black;
+  padding: 1rem;
+  font-family: "Golos Text", sans-serif;
+  
 }
 
 input:focus,
 textarea:focus {
   outline: none;
   border-style: solid;
-  border-width: 4px;
+  border-width: 1px;
   border-color: var(--color3);
 }
 
 input::placeholder,
 textarea::placeholder {
-  font-family: "Jim Nightshade", cursive;
+  font-family: "Golos Text", sans-serif;
   font-size: 18px;
-  margin-left: 20px;
-  color: rgba(0, 0, 0, 0.967);
+  margin-left: 2rem;
+  padding: 0 1rem;
+  color: rgba(0, 0, 0, 0.562);
 }
