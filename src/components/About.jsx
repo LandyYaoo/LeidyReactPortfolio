@@ -9,7 +9,7 @@ import Button from "./Button";
 const About = () => {
   const openCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1oqyaGBX3pefhJPFCuhOyK7_J6l5IMoLU/view?usp=sharing",
+      "https://drive.google.com/file/d/1Ahrad702jVbz87xtFSNP5cN_ukezcp9R/view",
       "_blank"
     );
   };

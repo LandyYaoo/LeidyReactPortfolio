@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const Hero = () => {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || "light"
+    localStorage.getItem("theme") || "dark"
   );
   
   const handleImageClick = () => {
